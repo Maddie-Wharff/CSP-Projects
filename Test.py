@@ -1,1 +1,1 @@
-print("This is a test.")
+print("Codespaces is awesome!")
