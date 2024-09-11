@@ -17,8 +17,8 @@ tenNum = 3*5**2/15
 elevNum = 5-2**2
 print(tenNum-elevNum)
 twlvNum = 1**4*2**2+3**3
-thrtNum = twlvNum-2**5
-print(thrtNum/4)
+thrtNum = 2**5/4
+print(twlvNum-thrtNum)
 fortenNum = 22/2-2*5
 fiftenNum = fortenNum**2
 sixtenNum = 4-6/6
