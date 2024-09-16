@@ -18,7 +18,7 @@ int main(void){
     savings = income*.2;
     total = income-expenses-savings;
     prent = rent/income;
-    putilities = utilities/income;
+    putilities = utilities/income*100;
     pgroceries = groceries/income;
     ptransportation = transportation/income;
     pexpenses = expenses/income;
