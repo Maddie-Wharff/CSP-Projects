@@ -1,0 +1,6 @@
+name = input("Enter a name: ")
+nameTwo = input("Enter a different name: ")
+verb = input("Enter a past tense verb: ")
+noun = input("Enter a noun: ")
+verb2 = input("Enter a different past tense verb: ")
+print(name + " and " + nameTwo + " were " + verb + " when they saw a " + noun + " and started to " + verb2 + ".")
