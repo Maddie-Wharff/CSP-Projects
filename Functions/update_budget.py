@@ -3,15 +3,15 @@ def percent(type, amount):
     return f"Your {type} is {per}%  of your income." 
 
 def usr(type):
-    float(input(f"How much is your {type}?: \n"))
+    return input(f"How much is your {type}?: \n")
 
 
 print("This is going to calculate your budget for this month.")
-income = float(usr("income"))
-rent = float(usr("rent"))
-utilities = float(usr("utilities"))
-groceries = float(usr("groceries"))
-transportation = float(usr("transportation"))
+income = usr("income")
+rent = usr("rent")
+utilities = usr("utilities")
+groceries = usr("groceries")
+transportation = usr("transportation")
 
 expenses = rent + utilities + groceries + transportation
 savings = float(income * 0.2)
