@@ -14,7 +14,7 @@ groceries = usr("groceries")
 transportation = usr("transportation")
 
 expenses = rent + utilities + groceries + transportation
-savings = income*0.2
+savings = income * 0.2
 total = income - expenses - savings
 
 print(f"Your expenses are: ${expenses:.2f}")
